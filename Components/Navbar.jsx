@@ -7,7 +7,7 @@ const Navbar = () => {
         <>
             <div className='flex justify-between items-center'>
                 <Image src={assets.logo} alt='logo' className='w-[130px] sm:w-[180px]' />
-                <button className=' py-2 px-2 border-2 sm:py-3 sm:px-6 btn-keren-3 gap-2 flex'> Get Started <Image src={assets.arrow} /></button>
+                <button className=' py-2 px-2 border-2 border-black sm:py-3 sm:px-6 hover:btn-keren-3 gap-2 flex'> Get Started <Image src={assets.arrow} /></button>
             </div>
             
         </>
